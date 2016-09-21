@@ -25,7 +25,7 @@ or link manually like so:
 ...
 
 include ':react-native-native-video-player'
-project(':react-native-native-video-player').projectDir = new File(settingsDir, '../node_modules/react-native-native-video-player')
+project(':react-native-native-video-player').projectDir = new File(settingsDir, '../node_modules/react-native-native-video-player/android')
 ```
 ```gradle
 // file: android/app/build.gradle
