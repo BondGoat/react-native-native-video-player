@@ -6,7 +6,6 @@ import android.net.Uri;
 import android.provider.MediaStore;
 
 import com.facebook.react.bridge.ActivityEventListener;
-import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
@@ -28,7 +27,7 @@ public class VideoPlayerModule extends ReactContextBaseJavaModule implements Act
     }
 
     @ReactMethod
-    public void showVideoPlayer(String url, Callback callback) {
+    public void showVideoPlayer(String url) {
         Activity currentActivity = getCurrentActivity();
         if (currentActivity != null) {
             Intent videoIntent = new Intent(Intent.ACTION_VIEW);
