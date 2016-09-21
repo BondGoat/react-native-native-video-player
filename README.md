@@ -1,4 +1,4 @@
-# react-native-video-player
+# react-native-native-video-player
 React native video player component, used for Android, iOS
 
 ## Table of contents
@@ -9,10 +9,10 @@ React native video player component, used for Android, iOS
 
 ## Install
 
-`npm install react-native-hunterslog-media-picker --save`
+`npm install react-native-native-video-player --save`
 
 Use [rnpm](https://github.com/rnpm/rnpm) to automatically complete the installation:  
-`rnpm link react-native-hunterslog-media-picker`
+`rnpm link react-native-native-video-player`
 
 or link manually like so:
 
@@ -24,8 +24,8 @@ or link manually like so:
 // file: android/settings.gradle
 ...
 
-include ':react-native-video-player'
-project(':react-native-video-player').projectDir = new File(settingsDir, '../node_modules/react-native-video-player')
+include ':react-native-native-video-player'
+project(':react-native-native-video-player').projectDir = new File(settingsDir, '../node_modules/react-native-native-video-player')
 ```
 ```gradle
 // file: android/app/build.gradle
@@ -33,7 +33,7 @@ project(':react-native-video-player').projectDir = new File(settingsDir, '../nod
 
 dependencies {
     ...
-    compile project(':react-native-video-player')
+    compile project(':react-native-native-video-player')
 }
 ```
 ```java
@@ -57,7 +57,7 @@ public class MainApplication extends Application implements ReactApplication {
 ## Usage
 
 ```javascript
-var VideoPlayer = require('react-native-video-player');
+var VideoPlayer = require('react-native-native-video-player');
 
 /**
  * The method will launch native module
