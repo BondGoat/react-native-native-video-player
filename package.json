@@ -1,6 +1,6 @@
 {
   "name": "react-native-native-video-player",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React native video player component, used for Android, iOS.",
   "main": "index",
   "repository": {
