@@ -18,7 +18,7 @@ public class VideoPlayerModule extends ReactContextBaseJavaModule implements Act
 
     public final int VIDEO_CODE = 1;
 
-    public HunterslogVideoPlayerModule(ReactApplicationContext reactContext) {
+    public VideoPlayerModule(ReactApplicationContext reactContext) {
         super(reactContext);
     }
 
