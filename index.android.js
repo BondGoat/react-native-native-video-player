@@ -16,7 +16,7 @@ const { VideoPlayerManager } = NativeModules;
 module.exports = {
   ...VideoPlayerManager,
 
-  showVideoPlayer(url, callback) {
-    return VideoPlayerManager.showVideoPlayer(url, callback);
+  showVideoPlayer(url) {
+    return VideoPlayerManager.showVideoPlayer(url);
   }
 }
