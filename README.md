@@ -63,4 +63,4 @@ var VideoPlayer = require('react-native-native-video-player');
  * The method will launch native module
  * @param {String} url Video link
  */
-VideoPlayer.showVideoPicker(url);
+VideoPlayer.showVideoPlayer(url);
