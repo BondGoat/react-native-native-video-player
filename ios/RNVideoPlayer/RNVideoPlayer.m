@@ -30,8 +30,9 @@ RCT_EXPORT_METHOD(showVideoPlayer: (NSString*) url)
         [delegate.window.rootViewController.view addSubview:self.playerViewController.view];
         [delegate.window.rootViewController presentViewController:self.playerViewController animated:YES completion:nil];
 
-        _playerViewController.player.play;
     });
+
+    _playerViewController.player.play;
 }
 
 @end
