@@ -17,7 +17,7 @@ Use [rnpm](https://github.com/rnpm/rnpm) to automatically complete the installat
 or link manually like so:
 
 ### iOS
-
+- Add RNVideoPlayer in ios folder to your ios project
 
 ### Android
 ```gradle
