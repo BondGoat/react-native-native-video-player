@@ -26,7 +26,7 @@ or link manually like so:
 - Add RNVideoPlayer in ios folder to your ios project
 - Open 'node_modules/react-native-native-video-player/ios/RNVideoPlayer.xcodeproj' with Xcode
 - Go to Build Settings > Search Paths > Header Search Paths
-- Edit the path variable from `$(SRCROOT)/../../../HunterLog` to `$(SRCROOT)/../../../[YOUR PROJECT FOLDER NAME]`
+- Edit the path variable from `$(SRCROOT)/../../../HuntersLog` to `$(SRCROOT)/../../../[YOUR PROJECT FOLDER NAME]`
 
 ### Android
 ```gradle
