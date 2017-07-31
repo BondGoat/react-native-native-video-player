@@ -11,6 +11,12 @@ React native video player component, used for Android, iOS
 
 `npm install react-native-native-video-player --save`
 
+## Link
+
+`react-native link react-native-native-video-player`
+
+OR
+
 Use [rnpm](https://github.com/rnpm/rnpm) to automatically complete the installation:  
 `rnpm link react-native-native-video-player`
 
@@ -18,6 +24,9 @@ or link manually like so:
 
 ### iOS
 - Add RNVideoPlayer in ios folder to your ios project
+- Open 'node_modules/react-native-native-video-player/ios/RNVideoPlayer.xcodeproj' with Xcode
+- Go to Build Settings > Search Paths > Header Search Paths
+- Edit the path variable from `$(SRCROOT)/../../../HuntersLog` to `$(SRCROOT)/../../../[YOUR PROJECT FOLDER NAME]`
 
 ### Android
 ```gradle
