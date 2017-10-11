@@ -20,7 +20,7 @@ public class VideoPlayerPackage implements ReactPackage {
         return Arrays.<NativeModule>asList(new VideoPlayerModule(reactContext));
     }
 
-    @Override
+    
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
