@@ -224,7 +224,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../ios/Freekik/**",
+					"$(SRCROOT)/../../../ios/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
@@ -239,7 +239,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../ios/Freekik/**",
+					"$(SRCROOT)/../../../ios/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
