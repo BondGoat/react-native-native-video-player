@@ -1,6 +1,6 @@
 {
   "name": "react-native-native-video-player",
-  "version": "1.3.4",
+  "version": "1.4.0",
   "description": "React native video player component, used for Android, iOS.",
   "main": "index",
   "repository": {
@@ -24,7 +24,11 @@
     "url": "https://github.com/BondGoat/react-native-native-video-player/issues"
   },
   "peerDependencies": {
-    "react-native": ">=0.30.0"
+    "react-native": ">=0.44.0"
   },
-  "homepage": "https://github.com/BondGoat/react-native-native-video-player/blob/master/README.md"
+  "homepage": "https://github.com/BondGoat/react-native-native-video-player/blob/master/README.md",
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0"
+  }
 }
