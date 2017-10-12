@@ -29,6 +29,17 @@ or link manually like so:
 - Edit the path variable from `$(SRCROOT)/../../../HuntersLog` to `$(SRCROOT)/../../../[YOUR PROJECT FOLDER NAME]`
 
 ### Android
+
+In case you're using React Native version > 0.45.0, please remove @Override of createJSModule() in VideoPlayerPackage.java
+```java
+// file: android/app/src/main/java/com/wog.videoplayer.VideoPlayerPackage.java
+...
+	  @Override // remove this if RN > 0.45.0
+      public List<Class<? extends JavaScriptModule>> createJSModules() {
+          return Collections.emptyList();
+      }
+```
+
 ```gradle
 // file: android/settings.gradle
 ...
@@ -49,7 +60,7 @@ dependencies {
 // file: android/app/src/main/java/com/<...>/MainApplication.java
 ...
 
-import com.wog.videoplayer.VideoPlayerPackage;; // <-- add this import
+import com.wog.videoplayer.VideoPlayerPackage; // <-- add this import
 
 public class MainApplication extends Application implements ReactApplication {
     @Override
