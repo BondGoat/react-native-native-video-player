@@ -12,7 +12,7 @@
 
 @synthesize bridge = _bridge;
 
-RCT_EXPORT_MODULE(VideoPlayer);
+RCT_EXPORT_MODULE(VideoPlayerManager);
 
 RCT_EXPORT_METHOD(showVideoPlayer: (NSString*) url)
 {
