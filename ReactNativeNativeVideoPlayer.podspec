@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.author           = { 'BondGoat' => 'bondsupergoat@gmail.com' }
   spec.source           = { :git => 'https://github.com/ericmgoeken/react-native-native-video-player' }
 
-  spec.source_files = 'ios/*.{h,m}'
+  spec.source_files = 'ios/RNVideoPlayer/*.{h,m}'
 
   # Pinning to the same version as React.podspec.
   spec.platforms = { :ios => "9.0" }
