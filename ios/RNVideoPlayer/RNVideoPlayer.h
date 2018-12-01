@@ -6,7 +6,6 @@
 //  Copyright © 2016 DC5 Admin (MACMINI032). All rights reserved.
 //
 
-#import "AppDelegate.h"
 #import "RCTBridge.h"
 #import <Foundation/Foundation.h>
 #import <AVKit/AVKit.h>
