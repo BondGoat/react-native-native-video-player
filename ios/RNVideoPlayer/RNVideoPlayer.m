@@ -12,13 +12,13 @@
 
 @synthesize bridge = _bridge;
 
-RCT_EXPORT_MODULE();
+RCT_EXPORT_MODULE(VideoPlayerManager);
 
 RCT_EXPORT_METHOD(showVideoPlayer: (NSString*) url)
 {
     self.videoURL = [NSURL URLWithString:url];
     UIViewController *rootViewController = [[[[UIApplication sharedApplication] delegate] window] rootViewController];
-    
+
     AVPlayer *player = [AVPlayer playerWithURL:self.videoURL];
     self.playerViewController = [AVPlayerViewController new];
     _playerViewController.player = player;
