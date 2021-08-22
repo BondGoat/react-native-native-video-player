@@ -13,6 +13,6 @@ Pod::Spec.new do |spec|
   # Pinning to the same version as React.podspec.
   spec.platforms = { :ios => "9.0" }
   
-  spec.dependency             "React/Core"
+  spec.dependency             "React-Core"
  
 end
